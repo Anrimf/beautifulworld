@@ -37,13 +37,16 @@ div.absolute {
 
 #demotext {
     color: #2D1E2F;
-    background: #FFFFFF;
+    background: #ff0000;
     color: #A9E5BB;
-    background: #FFFFFF;
+    background: yellow;
     font-family:serif;
     font-size: 80px;
     font-style: italic;
     font-variant: small-caps;
     position:absolute;
+    top: 0;
+    left:45vw;
+    z-index: 2
     }
     
