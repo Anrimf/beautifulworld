@@ -7,18 +7,7 @@ body {
     background-color: white;
 }
 
-#demotext {
-    color: #2D1E2F;
-    background: #FFFFFF;
-    color: #A9E5BB;
-    background: #FFFFFF;
-    font-family:serif;
-    font-size: 80px;
-    font-style: italic;
-    font-variant: small-caps;
-    position:absolute;
-    }
-    
+
 div.absolute {
     position: absolute;
     top: 80px;
@@ -46,3 +35,15 @@ div.absolute {
     position: absolute;
 }
 
+#demotext {
+    color: #2D1E2F;
+    background: #FFFFFF;
+    color: #A9E5BB;
+    background: #FFFFFF;
+    font-family:serif;
+    font-size: 80px;
+    font-style: italic;
+    font-variant: small-caps;
+    position:absolute;
+    }
+    
