@@ -1,12 +1,10 @@
 
 body {
-    background-image: url(../images/background.png); 
-    background-attachment:fixed;
-    background-position:absolute;
-    position: absolute;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: white;
-    background-size: 100vw 100vh;
-    overflow:scroll;
+    overflow: hidden;
 }
 
 
@@ -19,45 +17,70 @@ div.absolute {
     border: 3px solid #73AD21;
 }
 
-#background {
-    position: absolute;
-    width: 100vw;
-    height: fit-content;
-    left: 0px;
-    top: 0px;
-}
 
-#midground {
-    position: absolute;
-    width: 100vw;
-}
-
-#foreground {
-    position: absolute;
-    width: 100vw;
-    height: fit-content
-}
-
-#character {
-    position: absolute;
-    width: 100vw;
-    height:fit-content;
-}
-
-#demotext {
+.demotext {
+    width: 100%;
+    height: auto;
     color: #2D1E2F;
     background: #ff0000;
-    color: #A9E5BB;
-    background: yellow;
-    font-family:serif;
+    font-family: serif;
     font-size: 80px;
-    font-style: italic;
-    font-variant: small-caps;
-    position:absolute;
     top: 0;
-    left:45vw;
-    z-index: 2
+    left: 45vw;
+    text-align: center;
     }
-.homebutton{
-    Position: center;
+
+
+.stage{
+    position: relative;
+    border: solid forestgreen 2px;
+    height: 100vh;
+    width: 100%;
 }
+
+#foreground{
+    position: absolute;
+    z-index: 4;
+    top: 210px;
+    right: 20px;
+}
+
+#midground{
+    position: absolute;
+    z-index: 3;
+    top: 80px;
+}
+
+#background{
+    position: absolute;
+    z-index: 1;
+}
+
+#character{ 
+    top: 27%;
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+}
+
+#stars{
+    top: 0;
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+     width: 100%;
+    height: auto;
+    z-index: 5;
+}
+
+.nav{
+    width: 120px;
+    height: auto;
+}
+
