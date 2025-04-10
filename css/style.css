@@ -84,3 +84,37 @@ div.absolute {
     height: auto;
 }
 
+.hoverimage{
+    height: 200px;
+    width: 200px;
+    background-image: url("grandmahouse.png");
+    background-size: cover;
+    border: solid cyan 2px;
+}
+.hoverimage:hover{
+    background-image: url("grandmahousebright.png");
+}
+
+.dream{
+    height: 200px;
+    width: 200px;
+    background-image: url("petalfield.png");
+    background-size: cover;
+    border: solid cyan 2px;
+}
+
+.dream:hover{
+    background-image: url("petalfieldbright.png");
+}
+
+.fashion{
+    height: 200px;
+    width: 200px;
+    background-image: url("standing.png");
+    background-size: cover;
+    border: solid cyan 2px;
+}
+
+.fashion:hover{
+    background-image: url("standingbright.png");
+}
