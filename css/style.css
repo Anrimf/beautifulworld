@@ -269,14 +269,14 @@ div.absolute {
 
 h4 {
     font-family: serif;
-    style: bold italic;
+    font-style: bold italic;
     Color: #2D1E2F;
     border-color: #A9E5BB;
 }
 
 h3 {
     font-family: serif;
-    style: bold italic;
+    font-style: bold italic;
     Color: #2D1E2F;
     border-color: #42a1c7;
 }
@@ -294,4 +294,11 @@ h3 {
     font-size: larger;
     border-color: #A9E5BB;
     color:#2D1E2F;
+}
+
+.text {
+    text-align: center;
+    font-family: serif;
+    font-style: bold italic;
+    border:#A9E5BB;
 }
