@@ -13,14 +13,14 @@ div.absolute {
     right: 0;
     width: 200vw;
     height: 100vh;
-    border: 3px solid #73AD21;
+    border: 3px solid #F7B32B;
 }
 
 
 .demotext {
     width: 100%;
     height: auto;
-    color: #2D1E2F;
+    color: #A9E5BB;
     background: #ff0000;
     font-family: serif;
     font-size: 80px;
@@ -110,7 +110,7 @@ div.absolute {
     background-color: #2D1E2F;/* Purple */
     color: #A9E5BB;
     text-align: center;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
 }
 
@@ -120,14 +120,14 @@ div.absolute {
     right: 0;
     width: 200vw;
     height: 100vh;
-    border: 3px solid #73AD21;
+    border: 3px solid greenyellow;
 }
 
 
 .demotext {
     width: 100%;
     height: auto;
-    color: #2D1E2F;
+    color: #E2F2D1;
     background: #E3170A;
     font-family: serif;
     font-style: bold italic;
@@ -318,8 +318,8 @@ h3 {
 
 .home {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color: #A9E5BB;
     background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 10px;
-}
 }
