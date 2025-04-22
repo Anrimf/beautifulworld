@@ -1,0 +1,354 @@
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+
+div.absolute {
+    position: absolute;
+    top: 80vh;
+    right: 0;
+    width: 200vw;
+    height: 100vh;
+    border: 3px solid #F7B32B;
+}
+
+
+.demotext {
+    width: 100%;
+    height: auto;
+    color: #A9E5BB;
+    background: #ff0000;
+    font-family: serif;
+    font-size: 80px;
+    top: 0;
+    left: 45vw;
+    text-align: center;
+    }
+
+
+.stage {
+    position: relative;
+    /* top: 0; */
+    border: solid forestgreen 2px;
+    height: 100vh;
+    width: 100%;
+}
+
+#foreground {
+    position: absolute;
+    z-index: 4;
+    top: 210px;
+    right: 20px;
+}
+
+#midground {
+    position: absolute;
+    z-index: 3;
+    top: 80px;
+}
+
+#background {
+    position: absolute;
+    z-index: 1;
+}
+
+#character { 
+    top: 0px;
+    position: absolute;
+    z-index: 30;
+    right: 0px;
+}
+
+#stars {
+    top: 0;
+    position: absolute;
+    z-index: 3;
+    right: 0px;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+     width: 100%;
+    height: auto;
+    color:aquamarine;
+    z-index: 5;
+    font-family: serif;
+    font-style: bold italic;
+}
+
+.nav {
+    width: 120px;
+    height: auto;
+    color: #A9E5BB;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.introduction {
+    background-color: #FDFD96;/* Yellow */
+    color:#2D1E2F;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+.chapters {
+    background-color: #F7B32B;/* Orange */
+    text-align: center;
+    color: #2D1E2F;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact {
+    background-color: #2D1E2F;/* Purple */
+    color: #A9E5BB;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80vh;
+    right: 0;
+    width: 200vw;
+    height: 100vh;
+    border: 3px solid greenyellow;
+}
+
+
+.demotext {
+    width: 100%;
+    height: auto;
+    color: #E2F2D1;
+    background: #E3170A;
+    font-family: Sangi;
+    font-style: bold italic;
+    font-size: 80px;
+    top: 0;
+    left: 45vw;
+    text-align: center;
+    }
+
+
+.stage {
+    position: relative;
+    /* top: 0; */
+    border: solid forestgreen 2px;
+    height: 100vh;
+    width: 100%;
+}
+
+#foreground {
+    position: absolute;
+    z-index: 4;
+    top: 210px;
+    right: 120px;
+}
+
+#midground {
+    position: absolute;
+    z-index: 3;
+    top: 110px;
+    right: 120px;
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+    z-index: 1;
+}
+
+#character { 
+    top: 75px;
+    position: absolute;
+    z-index: 30;
+    right: 35px;
+}
+
+#stars {
+    top: 5px;
+    position: absolute;
+    z-index: 3;
+    right: 10px;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+     width: 100%;
+    height: auto;
+    z-index: 5;
+    color:#A9E5BB;
+}
+
+.hoverimage {
+    height: 200px;
+    width: 200px;
+    background-image: url("grandmahouse.png");
+    background-size: cover;
+    border: solid #FDFD96 2px;
+}
+.hoverimage:hover {
+    background-image: url("grandmahousebright.png");
+}
+
+.dream {
+    height: 200px;
+    width: 200px;
+    background-image: url("petalfield.png");
+    background-size: cover;
+    border: solid #A9E5BB 2px;
+}
+
+.dream:hover {
+    background-image: url("petalfieldbright.png");
+}
+
+.fashion{ 
+    height: 200px;
+    width: 200px;
+    background-image: url("standing.png");
+    background-size: cover;
+    border: solid #2D1E2F 2px;
+}
+
+.fashion:hover {
+    background-image: url("standingbright.png");
+}
+
+#dreamgirl {
+    width: 30%;
+    position: relative;
+}
+
+.Miri{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    background-color: #A9E5BB;
+    text-align: center;
+} 
+
+.banner{
+    text-align: center;
+    color: white;
+    width: 100%; 
+    font-family: serif;
+    font-style: bold italic;
+}
+
+.intro {
+
+    width: 100%;
+    height: auto;
+    color: #87CEEB;
+    background: white;
+    font-family: Sangi;
+    font-size: 50px;
+    top: 0;
+    left: 45vw;
+    text-align: center;
+    border-color: #2D1E2F;
+}
+
+.question {
+    text-align: center;
+    color:#FDFD96;
+}
+
+.secondPageContainer {
+width: 100vw;
+height: auto;
+display: flex;
+}
+
+@font-face {
+    font-family: Sangi;
+    src: url(../media/SangiSerifFont.ttf);
+}
+
+.statement {
+    padding: 3%;
+    display: relative;
+    width: 50%;
+    height: auto;
+    text-align: right;
+    color:#2D1E2F;
+    background-color: #A9E5BB;
+    font-family: Sangi;
+    font-style: Bold italic;
+    font-size: 24px;
+}
+
+.grandma {
+    margin-left: 20px;
+    right: 0%;
+    width: 70%;
+    height: auto;
+    position: relative;
+    width: auto;
+    /*border-color: aquamarine;*/
+}
+
+h4 {
+    font-family: serif;
+    font-style: bold italic;
+    Color: #2D1E2F;
+    border-color: #A9E5BB;
+}
+
+h3 {
+    font-family: serif;
+    font-style: bold italic;
+    Color: #2D1E2F;
+    border-color: #42a1c7;
+}
+
+.communicate {
+    text-align: center;
+    font-size: xx-large;
+    color: #FDFD96;
+}
+
+.intochapters {
+    text-align: justify;
+    font-family: serif;
+    font-style: bold italic;
+    font-size: larger;
+    border-color: #A9E5BB;
+    color:#2D1E2F;
+}
+
+.text {
+    text-align: center;
+    font-family: serif;
+    font-style: bold italic;
+    border:#A9E5BB;
+}
+
+.home-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.home {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #A9E5BB;
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
