@@ -276,7 +276,7 @@ display: flex;
 
 @font-face {
     font-family: Sangi;
-    src: url(./media/SangiSerifFont.ttf);
+    src: url(../media/SangiSerifFont.ttf);
 }
 
 .statement {
