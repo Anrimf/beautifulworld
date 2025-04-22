@@ -129,7 +129,7 @@ div.absolute {
     height: auto;
     color: #E2F2D1;
     background: #E3170A;
-    font-family: serif;
+    font-family: Sangi;
     font-style: bold italic;
     font-size: 80px;
     top: 0;
@@ -250,8 +250,17 @@ div.absolute {
 }
 
 .intro {
+
+    width: 100%;
+    height: auto;
+    color: #87CEEB;
+    background: white;
+    font-family: Sangi;
+    font-size: 50px;
+    top: 0;
+    left: 45vw;
     text-align: center;
-    color:#2D1E2F;
+    border-color: #2D1E2F;
 }
 
 .question {
@@ -259,18 +268,38 @@ div.absolute {
     color:#FDFD96;
 }
 
+.secondPageContainer {
+width: 100vw;
+height: auto;
+display: flex;
+}
+
+@font-face {
+    font-family: Sangi;
+    src: url(../media/SangiSerifFont.ttf);
+}
+
 .statement {
-    text-align: center;
+    padding: 3%;
+    display: relative;
+    width: 50%;
+    height: auto;
+    text-align: right;
     color:#2D1E2F;
-    background-color: cyan;
-    font-family: san serif;
+    background-color: #A9E5BB;
+    font-family: Sangi;
     font-style: Bold italic;
+    font-size: 24px;
 }
 
 .grandma {
+    margin-left: 20px;
+    right: 0%;
+    width: 70%;
+    height: auto;
+    position: relative;
     width: auto;
-    text-align: center;
-    border-color: aquamarine;
+    /*border-color: aquamarine;*/
 }
 
 h4 {
