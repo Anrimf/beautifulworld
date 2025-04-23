@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-    
+    <div class="contactbuttons">
     <a href="index.html" target="home">
-        <button class="home">
+        <button class="home2">
             <em>
                 Home
             </em>
@@ -22,7 +22,7 @@
     </a>
 
     <a href="secondpage.html" target="introduction">
-        <button class="introduction">
+        <button class="introduction2">
             <em>
                 Introduction
             </em>
@@ -30,14 +30,16 @@
     </a>
 
     <a href="Third.html" target="chapters">
-        <button class="chapters">
+        <button class="chapters2">
             <em>
                 Chapters
             </em>
         </button>
     </a>
+</div>
+
     <div class="logo">
-        <img id="logo" src="../images/logo.png">
+        <img id="logo" src="./images/logo.png">
     </div>
 
     <div class="banner">
@@ -48,12 +50,39 @@
         <img id="dreamgirl" src="./images/dreamgirl.jpg" />
     </div>
 
-    <div class="communicate"
-        <h2>
-            Please contact me at:
-            "mirnaf788@gmail.com"
-        </h2>
+
+    <!-- modify this form HTML and place wherever you want your form -->
+
+<div class="container3">
+    <form action="https://formspree.io/f/xblglvwa"
+        method="POST"
+        >
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <label>
+    <div class="email">
+        Your email:
+        <input type="email" name="email">
+      </label>
     </div>
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
     
 </body>
 
